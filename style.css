@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 100px 100px auto 100px;
+    grid-template-areas: "grid1 grid1 grid1" "grid2 grid3 grid4" "grid2 grid5 grid4" "grid6 grid6 grid6";
+    gap: 10px;
+}
+
+.grid1 {
+    background-color: #e41d1d;
+    grid-area: grid1;
+}
+
+.grid2 {
+    background-color: #4c811a;
+    grid-area: grid2;
+}
+
+.grid3 {
+    background-color: #11d5f8;
+    grid-area: grid3;
+}
+
+.grid4 {
+    background-color: #ffd900de;
+    grid-area: grid4;
+}
+
+.grid5 {
+    background-color: #e100ff;
+    grid-area: grid5;
+}
+
+.grid6 {
+    background-color: #0011ff;
+    grid-area: grid6;
+}
